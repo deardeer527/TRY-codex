@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+build/
+out/
+target/
+
+# logs / temp
+*.log
+*.tmp
+.cache/
+
+# local env & secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
